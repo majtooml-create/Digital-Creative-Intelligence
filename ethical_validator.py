@@ -1,8 +1,5 @@
-# The ethical governance of D.C.I is operationalized through an embedded 
-# validator. The pseudocode below illustrates its decision logic, 
-# emphasizing transparency logging and modular safety/fairness checks. 
-# Production deployments integrate real-world tools such as AI Fairness 360 
-# and Google NLP API.
+# D.C.I Ethics Validator – Embedded ethical governance module.
+# Matches the description in Section 6.2 of the paper.
 
 class EthicalConstraintChecker:
     def validate(self, output: str, context: dict) -> bool:

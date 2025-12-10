@@ -9,20 +9,25 @@ This repository contains the official open-source implementation, evaluation sui
 
 ---
 
-## 📦 What’s Included
-- `dcisystem.py`: Core D.C.I architecture (illustrative pseudocode)
-- `dcias/`: D.C.I Assessment Suite (DCI-AS) for automated evaluation
-- `tasks/`: 3,600 evaluation tasks across 4 domains (Science, Design, Education, Business)
-- `experiment_runner.py`: Reproducible experiment pipeline
-- `ethical_validator.py`: Embedded ethics governance module
+## 📦 Currently Available
+- `dcisystem.py`: Core D.C.I architecture (illustrative pseudocode from Section 5.1)
+- `ethical_validator.py`: Embedded ethics governance module (Section 6.2)
+- This repository provides the **minimal reproducible core** of the D.C.I framework.
+
+## 📥 To Be Released Upon Acceptance
+The following components will be published in full upon journal acceptance or upon reasonable academic request:
+- Full dataset of 3,600 evaluation tasks (`tasks/`)
+- D.C.I Assessment Suite (`dcias/`)
+- Reproducible experiment runner (`experiment_runner.py`)
+- Detailed human evaluation templates and statistical pipelines
 
 ## 🧪 Reproducibility
-All experiments use **fixed model versions**:
+All experiments in the paper use **fixed model versions**:
 - GPT-4 (`gpt-4-0613`)
 - Claude 2.1
 - Stable Diffusion XL 1.0
 
-> 🔍 Full replication instructions are in [`REPRODUCE.md`](REPRODUCE.md)
+> 🔍 Full replication instructions and transparency notice are in [`REPRODUCE.md`](REPRODUCE.md)
 
 ## 📚 How to Cite
 If you use this work, please cite:
